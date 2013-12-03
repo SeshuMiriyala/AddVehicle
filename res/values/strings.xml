@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AddVehicle</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_vin">VIN</string>
+    <string name="str_year">Year of Manufacturing</string>
+    <string name="cd_vin">Vehicle Identification Number</string>
+    <string name="str_make">Make</string>
+    <string name="str_model">Model</string>
+    <string name="str_trim">Trim</string>
+    <string name="cd_image">Upload Image</string>
+    <string name="str_image">Upload Image</string>
+    <string name="cd_browse_image">Browse Image</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_reset">Reset</string>
+    <string name="cd_imageShow">Image</string>
+    <string name="lbl_Search">Search</string>
+    <string name="str_image_selection">Select an image</string>
+    <string name="title_activity_file_select">FileSelectActivity</string>
+
+</resources>
