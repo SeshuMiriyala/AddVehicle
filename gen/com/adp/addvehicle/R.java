@@ -35,27 +35,23 @@ public final class R {
     }
     public static final class id {
         public static final int Upload_vehicle_table=0x7f090001;
-        public static final int action_settings=0x7f09001a;
+        public static final int action_settings=0x7f090016;
         public static final int btn_image1=0x7f09000f;
-        public static final int btn_image2=0x7f090013;
         public static final int et_make=0x7f090008;
         public static final int et_vin=0x7f090003;
         public static final int et_year=0x7f090006;
-        public static final int icon_image=0x7f090016;
+        public static final int icon_image=0x7f090012;
         public static final int imgbtn_image1_photo=0x7f090010;
-        public static final int imgbtn_image2_photo=0x7f090014;
         public static final int imgbtn_vin_photo=0x7f090004;
-        public static final int listview=0x7f090019;
+        public static final int iv_image=0x7f09000e;
+        public static final int listview=0x7f090015;
         public static final int main_grid=0x7f090000;
-        public static final int make=0x7f090017;
-        public static final int model=0x7f090018;
-        public static final int st_image1=0x7f09000e;
-        public static final int st_image2=0x7f090012;
+        public static final int make=0x7f090013;
+        public static final int model=0x7f090014;
         public static final int st_model=0x7f09000a;
         public static final int st_trim=0x7f09000c;
-        public static final int tr_buttons=0x7f090015;
+        public static final int tr_buttons=0x7f090011;
         public static final int tr_image1=0x7f09000d;
-        public static final int tr_image2=0x7f090011;
         public static final int tr_make=0x7f090007;
         public static final int tr_model=0x7f090009;
         public static final int tr_trim=0x7f09000b;

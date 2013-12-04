@@ -3,7 +3,6 @@ package com.adp.addvehicle;
 import java.io.File;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -24,10 +23,7 @@ public class FileSelectActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_file_select);
 		
-		// Set up an Intent to send back to applications that request a file
-        Intent mResultIntent =
-                new Intent("com.adp.addvehicle.ACTION_RETURN_FILE");
-        // Get the files/ sub directory of internal storage
+		// Get the files/ sub directory of internal storage
         mPrivateRootDir = getFilesDir();
         // Get the files/images sub directory;
         mImagesDir = new File(mPrivateRootDir, "images");
