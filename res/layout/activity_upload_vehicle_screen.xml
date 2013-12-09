@@ -80,7 +80,7 @@
             android:layout_marginTop="20dp">
 
             <EditText
-                android:id="@+id/st_model"
+                android:id="@+id/et_model"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -97,7 +97,7 @@
             android:layout_marginTop="20dp">
 
             <EditText
-                android:id="@+id/st_trim"
+                android:id="@+id/et_trim"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -153,13 +153,15 @@
                 android:layout_width="match_parent"
                 android:drawableStart="@drawable/ic_save"
                 android:text="@string/btn_save"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="uploadVehicle">
             </Button>
             <Button
                 android:drawableStart="@drawable/ic_reset"
                 android:text="@string/btn_reset"
                 android:layout_width="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="resetUpload">
             </Button>
         </TableRow>
         
